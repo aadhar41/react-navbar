@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  float: left;
+  margin: 20px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.mainDiv {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  height: 100vh;
+  padding-top: 50px;
+  transition: 0.2s;
+}
+
+#root > div > div > div > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+button > i {
+  color: black;
+}
